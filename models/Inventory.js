@@ -20,8 +20,11 @@ Inventory.init(
       allowNull: false,
     },
     price: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.DECIMAL(5, 2),
       allowNull: false,
+      validate: {
+        isDecimal: true,
+      },
     },
     image_url: {
       type: DataTypes.STRING,
