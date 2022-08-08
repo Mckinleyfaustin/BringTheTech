@@ -31,7 +31,7 @@ Contributing
 # 🛠️ Installation Steps
 The project was uploaded to GitHub at the following [repository] (https://github.com/u276875/BringTheTech.git)
 
-You can access the deployed application with the Heroku link: https://safe-basin-04900.herokuapp.com/
+You can access the deployed application with the Heroku link: 
 
 To install the project follow these steps:
 
