@@ -1,8 +1,9 @@
-github-profile-readme-generator license github-profile-readme-generator forks github-profile-readme-generator stars github-profile-readme-generator issues github-profile-readme-generator pull-requests join discord community of github profile readme generator
+# Welcome to BringTheTech
 
+BTT is a store front allowing you to find electronic devices or parts, add to your cart and buy them whenever you want.
 github-profile-readme-generator gif
 
-View Demo · Report Bug · Request Feature
+# View Demo
 
 Loved the tool? Please consider donating 💸 to help it improve!
 
