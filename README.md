@@ -11,47 +11,53 @@ Try the tool: GitHub Profile README Generator
 This tool provides an easy way to create a GitHub profile readme with the latest add-ons such as visitors count, github stats, etc.
 
 
-# 🧐 Features
+# 🧐 Table of Contents
 Just fill in the details such as Name, Tagline, Dev Platforms Username, Current Work, Portfolio, Blog, etc. with a minimal UI.
 
-Uniform Dev Icons
+Demo
 
-Uniform Social Icons
+The Requirements
 
-Visitors Counter Badge
+User Story
 
-GitHub Profile Stats Card
+Installation Steps
 
-GitHub Top Skills
+Authors
 
-GitHub Streak Stats
+Credits
 
-Dynamic Dev(.)to Blogs (GitHub Action)
+Contributing
 
-Dynamic Medium Blogs (GitHub Action)
+# 🛠️ Installation Steps
+The project was uploaded to GitHub at the following [repository] (https://github.com/u276875/BringTheTech.git)
 
-Dynamic Personal Blogs from RSS Feed (GitHub Action)
+You can access the deployed application with the Heroku link: https://safe-basin-04900.herokuapp.com/
 
-Wakatime Stats contribute
+To install the project follow these steps:
 
-Buy Me A Coffee button
+Clone the application from GitHub with:
 
-Click on Generate README to get your README in markdown. You can preview the README too.
+git clone [clone link from GitHub]
+From the root folder, install the dependencies with:
 
-🛠️ Installation Steps
-Clone the repository
-git clone https://github.com/rahuldkjain/github-profile-readme-generator.git
-Change the working directory
-cd github-profile-readme-generator
-Install dependencies
 npm install
-Run the app
-npm start
-🌟 You are all set!
+Run the app with:
 
-🍰 Contributing
+node server.js
+
+# 🌟 Authors
+Austin Davis
+Bradley Woodle
+Brenden Bischoff
+Darryl Peterson
+McKinley Faustin
+
+# 💻 Credits
+
+
+# 🍰 Contributing
 Please contribute using GitHub Flow. Create a branch, add commits, and open a pull request.
 
 Please read CONTRIBUTING for details on our CODE OF CONDUCT, and the process for submitting pull requests to us.
 
-💻 Built with
+
