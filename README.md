@@ -3,20 +3,15 @@
 BTT is a store front allowing you to find electronic devices or parts, add to your cart and buy them whenever you want.
 github-profile-readme-generator gif
 
-# View Demo
-
-Loved the tool? Please consider donating 💸 to help it improve!
-
-sponsor github profile readme generator Buy Coffee for rahuldkjain Buy Me A Coffee
+# 🚀 Demo
 
 Tired of editing GitHub Profile README with new features?
-This tool provides an easy way to create a GitHub profile readme with the latest add-ons such as visitors count, github stats, etc.
-
-🚀 Demo
-
 Try the tool: GitHub Profile README Generator
 
-🧐 Features
+This tool provides an easy way to create a GitHub profile readme with the latest add-ons such as visitors count, github stats, etc.
+
+
+# 🧐 Features
 Just fill in the details such as Name, Tagline, Dev Platforms Username, Current Work, Portfolio, Blog, etc. with a minimal UI.
 
 Uniform Dev Icons
