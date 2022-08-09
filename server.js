@@ -5,6 +5,11 @@ const sequelize = require("./config/connection");
 const app = express();
 const PORT = process.env.PORT || 3001;
 
+// app.use((req, res, next) => {
+//   res.status(200).json({
+//     message: 'It works'
+//   });
+// });
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
