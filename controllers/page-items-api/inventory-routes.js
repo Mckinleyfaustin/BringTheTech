@@ -26,4 +26,12 @@ router.post("/", (req, res) => {
     });
 });
 
+router.delete("/:id", (req, res) => {
+  Inventory.destroy({
+    where: {
+      id: req.params.id,
+    },
+  });
+});
+
 module.exports = router;
