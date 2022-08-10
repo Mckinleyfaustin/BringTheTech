@@ -78,3 +78,4 @@ To install the project follow these steps:
 - Cookies for authenication
 - Heroku
 - GET and POST Routes
+- Github
