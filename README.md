@@ -40,7 +40,7 @@ This site provides an easy way to find a reburbished electronic item, add it to 
 - Have a quality README.
 
 ## User Story
-AS A Technology enthusias I WANT to shop for and buy repaired/refurbished electronics SO THAT I can find tools I need at a reasonable price.
+AS A Technology enthusiast I WANT to shop for and buy repaired/refurbished electronics SO THAT I can find tools I need at a reasonable price.
 
 GIVEN a dashboard with a search input WHEN I search for an item THEN I am presented with various products that I can choose from to purchase WHEN I am not trying to purchase the products at the very moment, I can save them to my personal cart that is saved under my account and revisit it at my choosing.
 
