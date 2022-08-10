@@ -3,7 +3,7 @@
 BTT is a store front allowing you to find electronic devices or parts, add to your cart and buy them whenever you want.
 github-profile-readme-generator gif
 
-# 🧐 Table of Contents
+## 🧐 Table of Contents
 
 Demo
 
