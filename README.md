@@ -21,10 +21,9 @@ github-profile-readme-generator gif
 
 ## 🚀 Demo
 
-Tired of editing GitHub Profile README with new features?
-Try the tool: GitHub Profile README Generator
 
-This tool provides an easy way to create a GitHub profile readme with the latest add-ons such as visitors count, github stats, etc.
+
+This site provides an easy way to find a reburbished electronic item, add it to your cart and purchase the item at your convenience as long as the item is still available.
 
 ## The Requirements
 - Use Node.js and Express.js to create a RESTful API.
