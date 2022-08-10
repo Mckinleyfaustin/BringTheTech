@@ -63,7 +63,16 @@ To install the project follow these steps:
 - McKinley Faustin
 
 ## 💻 Credits
-
+- Austin Davis
+  - Front-end scripting & Presentation
+- Bradley Woodle
+  - Front-end scripting & Back-end scripting
+- Brenden Bischoff
+  - Front-end scripting & requirement keeper
+- Darryl Peterson
+  - Assets builder, Heroku specialist & Presentation
+- McKinley Faustin
+  - Back-end support, README, and Presentation 
 
 ## 🍰 Technologies Used
 - HTML
