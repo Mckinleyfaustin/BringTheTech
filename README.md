@@ -17,7 +17,7 @@ github-profile-readme-generator gif
 
 - Credits
 
-- Contributing
+- Technologies Used
 
 ## 🚀 Demo
 
@@ -65,7 +65,16 @@ To install the project follow these steps:
 ## 💻 Credits
 
 
-## 🍰 Contributing
-Please contribute using GitHub Flow. Create a branch, add commits, and open a pull request.
-
-Please read CONTRIBUTING for details on our CODE OF CONDUCT, and the process for submitting pull requests to us.
+## 🍰 Technologies Used
+- HTML
+- CSS
+- JavaScript
+- Markdown
+- Node.js
+- Handlebars.js
+- MySQL & Sequalize ORM
+- Express.js
+- RESTful API
+- Cookies for authenication
+- Heroku
+- GET and POST Routes
