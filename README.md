@@ -54,7 +54,7 @@ To install the project follow these steps:
 
 Clone the application from GitHub with:
 
-git clone [clone link from GitHub]
+git clone https://github.com/u276875/BringTheTech.git
 From the root folder, install the dependencies with:
 
 npm install
