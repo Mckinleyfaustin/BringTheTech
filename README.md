@@ -52,22 +52,16 @@ You can access the deployed application with the Heroku link:
 
 To install the project follow these steps:
 
-Clone the application from GitHub with:
-
-git clone https://github.com/u276875/BringTheTech.git
-From the root folder, install the dependencies with:
-
-npm install
-Run the app with:
-
-node server.js
+1. Clone the application from GitHub with (git clone https://github.com/u276875/BringTheTech.git) From the root folder.
+1. npm install
+1. Run the app with node server.js
 
 ## 🌟 Authors
-Austin Davis
-Bradley Woodle
-Brenden Bischoff
-Darryl Peterson
-McKinley Faustin
+- Austin Davis
+- Bradley Woodle
+- Brenden Bischoff
+- Darryl Peterson
+- McKinley Faustin
 
 ## 💻 Credits
 
