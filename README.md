@@ -58,7 +58,7 @@ To install the project follow these steps:
 ## 🌟 Authors
 - Austin Davis
 - Bradley Woodle
-- Brenden Bischoff
+- Brendan Bischoff
 - Darryl Peterson
 - McKinley Faustin
 
