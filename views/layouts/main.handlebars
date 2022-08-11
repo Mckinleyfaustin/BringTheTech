@@ -12,11 +12,19 @@
   <body>
     <nav>
       <a href="/">Bring The Tech</a>
-      <a href="/"><i class="fa-solid fa-bag-shopping"></i>cart</a>
+      <div>
+        {{#if loggedIn}}
+          <button id="logout">logout</button>
+          <a href="/"><i class="fa-solid fa-bag-shopping"></i>cart</a>
+        {{else}}
+          <a href="/login">login</a>
+        {{/if}}
+      </div>
     </nav>
     <div class="product-list">
       {{{body}}}
     </div>
-    <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/add-cart.js"></script>
+    <script src="/assets/js/logout.js"></script>
   </body>
 </html>
