@@ -88,5 +88,3 @@ To install the project follow these steps:
 - Heroku
 - GET and POST Routes
 - Github
-
-
