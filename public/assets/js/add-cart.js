@@ -3,6 +3,8 @@ async function addCart(event) {
 
   const clicked = event.target.parentElement;
 
+  console.log(clicked.children);
+
   const title = clicked.children[1].innerText;
   const price = clicked.children[3].innerText;
 

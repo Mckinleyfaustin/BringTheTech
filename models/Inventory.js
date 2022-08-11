@@ -20,7 +20,7 @@ Inventory.init(
       allowNull: false,
     },
     price: {
-      type: DataTypes.DECIMAL(5, 2),
+      type: DataTypes.DECIMAL(6, 2),
       allowNull: false,
       validate: {
         isDecimal: true,

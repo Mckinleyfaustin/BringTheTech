@@ -1,9 +1,20 @@
-{{#each items}}
-  <div class="product">
-    <img src={{image_url}} alt="Product image" />
-    <h4 class="product-title">{{title}}</h4>
-    <p>{{discription}}</p>
-    <p class="product-price">{{price}}</p>
-    <button class="product-btn">Add to cart</button>
-  </div>
-{{/each}}
+<section class="hero">
+  <section class="product-container">
+    <div class="flex-row">
+      <h2 class="section-title primary-border">View Current Products</h2>
+    </div>
+    <div class="products">
+      {{#each items}}
+        <article class="product">
+          <div class="product-bio">
+            <img src={{image_url}} alt="Product Image" />
+            <h3 class="product-title">{{title}}</h3>
+            <h4 class="product-role">{{discription}}</h4>
+            <p class="product-price">{{price}}</p>
+            <button class="product-btn">Add To Cart</button>
+          </div>
+        </article>
+      {{/each}}
+    </div>
+  </section>
+</section>

@@ -36,7 +36,7 @@ router.post("/", (req, res) => {
 router.delete("/:id", (req, res) => {
   Cart.destroy({
     where: {
-      id: req.body.params,
+      user_id: req.params.id,
     },
   })
     .then((dbCartData) => res.json(dbCartData))
@@ -44,6 +44,12 @@ router.delete("/:id", (req, res) => {
       console.log(err);
       res.status(500).json(err);
     });
+});
+
+router.get("/test", (req, res) => {
+  Cart.findAll({
+    attributes: ["id", "inventory_title", "inventory_price", "user_id"],
+  }).then((dbCartData) => res.json(dbCartData));
 });
 
 module.exports = router;

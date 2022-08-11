@@ -16,7 +16,7 @@ Cart.init(
       allowNull: false,
     },
     inventory_price: {
-      type: DataTypes.DECIMAL,
+      type: DataTypes.DECIMAL(6, 2),
       allowNull: false,
     },
     user_id: {

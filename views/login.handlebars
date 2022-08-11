@@ -1,31 +1,56 @@
-<form class="login-form">
-  <div>
-    <label for="email-login">email:</label>
-    <input type="text" id="email-login" />
-  </div>
-  <div>
-    <label for="password-login">password:</label>
-    <input type="text" id="password-login" />
-  </div>
-  <div>
-    <button type="submit">login</button>
-  </div>
-</form>
-<form class="signup-form">
-  <div>
-    <label for="username-signup">username:</label>
-    <input type="text" id="username-signup" />
-  </div>
-  <div>
-    <label for="email-signup">email:</label>
-    <input type="text" id="email-signup" />
-  </div>
-  <div>
-    <label for="password-signup">password:</label>
-    <input type="text" id="password-signup" />
-  </div>
-  <div>
-    <button type="submit">signup</button>
-  </div>
-</form>
+<div class="login-form sign-up-form">
+  <h3>Enter Your Credentials</h3>
+  <p>Welcome Back!</p>
+  <form>
+    <input
+      type="email"
+      placeholder="Email Address:"
+      id="email-login"
+      name="email-login"
+      class="form-input"
+    />
+    <input
+      type="password"
+      placeholder="Password:"
+      id="password-login"
+      name="password-login"
+      class="form-input"
+    />
+    <button type="submit">Bring The Tech!</button>
+  </form>
+</div>
+<br />
+<br />
+<hr />
+<br />
+<br />
+<div class="sign-up-form signup-form">
+  <h3>Sign up now!</h3>
+  <p>To start placing orders sign up here!</p>
+  <form>
+    <input
+      type="text"
+      placeholder="Your Name"
+      id="username-signup"
+      name="username-signup"
+      class="form-input"
+    />
+    <input
+      type="email"
+      placeholder="Email Address"
+      id="email-signup"
+      name="email-signup"
+      class="form-input"
+    />
+    <input
+      type="tel"
+      placeholder="Password"
+      name="password-signup"
+      id="password-signup"
+      class="form-input"
+    />
+
+    <button type="submit">Bring The Tech!</button>
+  </form>
+</div>
 <script src="./assets/js/login.js"></script>
