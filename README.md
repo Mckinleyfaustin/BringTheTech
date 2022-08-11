@@ -67,7 +67,7 @@ To install the project follow these steps:
   - Front-end scripting & Presentation
 - Bradley Woodle
   - Front-end scripting & Back-end scripting
-- Brenden Bischoff
+- Brendan Bischoff
   - Front-end scripting & requirement keeper
 - Darryl Peterson
   - Assets builder, Heroku specialist & Presentation
