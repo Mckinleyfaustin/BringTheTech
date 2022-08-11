@@ -1,35 +1,33 @@
 const { Model, DataTypes } = require("sequelize");
 const sequelize = require("../config/connection");
 
-class Inventory extends Model {}
+class User extends Model {}
 
-Inventory.init(
+User.init(
   {
     id: {
       type: DataTypes.INTEGER,
-      allowNull: false,
+      allowNull: true,
       primaryKey: true,
       autoIncrement: true,
     },
-    title: {
+    username: {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    discription: {
+    email: {
       type: DataTypes.STRING,
-      allowNull: false,
-    },
-    price: {
-      type: DataTypes.DECIMAL(6, 2),
       allowNull: false,
       validate: {
-        isDecimal: true,
+        isEmail: true,
       },
     },
-    image_url: {
+    password: {
       type: DataTypes.STRING,
       allowNull: false,
-      validate: {},
+      validate: {
+        len: [8],
+      },
     },
   },
   {
@@ -37,8 +35,8 @@ Inventory.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: "inventory",
+    modelName: "user",
   }
 );
 
-module.exports = Inventory;
+module.exports = User;

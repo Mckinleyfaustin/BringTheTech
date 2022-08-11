@@ -1,4 +1,10 @@
 INSERT INTO inventory (title, discription, price, image_url)
 VALUES
-('sample title', 'this is a sample item', 12.34, "sampleitem.jpeg@something.com"),
-('another sample title', "this is about another sample product", 57, "anothersampleitem.jpeg@something.com")
+('Laptop', 'Space Grey Macbook', 1300.99,'#'),
+('Ipod Touch', 'Custom Banana Yellow', 399.99, '#'),
+('Samaung Galaxy', 'Black, Slightly Used', 599.99, '#');
+
+INSERT INTO user (username, email, password)
+VALUES
+("Johnny Bravo", "ohmama@gmail.com", "heyfoxymama"),
+('Super Mario', 'itsahme@gmail.com', 'yuuuhooo');
