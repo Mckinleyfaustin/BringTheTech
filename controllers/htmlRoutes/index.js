@@ -29,14 +29,14 @@ router.get("/login", (req, res) => {
 
 router.get("/cart", (req, res) => {
   Cart.findAll({
-    attributes: ["id", "inventory_title", "inventory_price", "user-id"],
+    attributes: ["id", "inventory_title", "inventory_price", "user_id"],
     where: {
       user_id: req.session.user_id,
     },
   })
     .then((dbCartData) => {
       const checkout = dbCartData.map((item) => item.get({ plain: true }));
-      res.render("cart", { checkout });
+      res.render("cart", { checkout, loggedIn: req.session.loggedIn });
     })
     .catch((err) => {
       console.log(err);

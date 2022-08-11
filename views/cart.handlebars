@@ -1,8 +1,12 @@
 <h2 class="section-title primary-border">Checkout</h2>
-{{#each Checkout}}
-  <div>
-    <h3>{{inventory_title}}</h3>
-    <p>{{inventory_price}}</p>
-  </div>
-{{/each}}
+<div class="products">
+  {{#each checkout}}
+    <div class="product">
+      <div class="product-bio">
+        <h3>{{inventory_title}}</h3>
+        <p>{{inventory_price}}</p>
+      </div>
+    </div>
+  {{/each}}
+</div>
 <h3>Total: <span id="total"></span></h3>

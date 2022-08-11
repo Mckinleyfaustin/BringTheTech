@@ -17,7 +17,9 @@
       <nav>
         {{#if loggedIn}}
           <a href="#" id="logout">Logout</a>
-          <a href="/cart"><i class="fa-solid fa-bag-shopping"></i>cart</a>
+          <a href="/cart" id="cart"><i
+              class="fa-solid fa-bag-shopping"
+            ></i>cart</a>
         {{else}}
           <a href="/login">Login</a>
         {{/if}}
@@ -50,6 +52,7 @@
   </body>
   <script src="./assets/js/header-style.js"></script>
   <script src="./assets/js/add-cart.js"></script>
+  <script src="./assets/js/cart"></script>
   {{#if loggedIn}}
     <script src="/assets/js/logout.js"></script>
   {{/if}}
