@@ -1,3 +1,9 @@
 let priceArray = document.querySelectorAll(".price");
 
-console.log(priceArray);
+let total = 0;
+
+priceArray.forEach((price) => {
+  total += parseFloat(price.innerHTML);
+});
+
+document.querySelector("#total").innerHTML = Math.round(total);
