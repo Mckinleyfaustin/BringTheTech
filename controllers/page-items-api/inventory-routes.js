@@ -2,6 +2,7 @@ const router = require("express").Router();
 const { Inventory } = require("../../models");
 
 router.get("/", (req, res) => {
+  //gets all inventory rows
   Inventory.findAll({
     attributes: ["id", "title", "discription", "price", "image_url"],
   })
@@ -13,6 +14,7 @@ router.get("/", (req, res) => {
 });
 
 router.post("/", (req, res) => {
+  //creates a row in inventory table
   Inventory.create({
     title: req.body.title,
     discription: req.body.discription,
@@ -27,6 +29,7 @@ router.post("/", (req, res) => {
 });
 
 router.delete("/:id", (req, res) => {
+  //deletes inventory row by param id
   Inventory.destroy({
     where: {
       id: req.params.id,

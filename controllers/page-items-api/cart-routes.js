@@ -2,16 +2,13 @@ const router = require("express").Router();
 const { Cart } = require("../../models");
 
 router.get("/", (req, res) => {
-  console.log(req.session);
+  //console.log(req.session);
+  //gets all cart rows
   Cart.findAll({
     attributes: ["id", "inventory_title", "inventory_price", "user_id"],
-    where: {
-      user_id: req.session.user_id,
-    },
   })
     .then((dbCartData) => {
-      const checkout = dbCartData.map((item) => item.get({ plain: true }));
-      res.render("cart", { checkout, loggedIn: req.session.loggedIn });
+      res.json(dbCartData);
     })
     .catch((err) => {
       console.log(err);
@@ -20,11 +17,13 @@ router.get("/", (req, res) => {
 });
 
 router.post("/", (req, res) => {
+  //checks if user logged in
   if (!req.session.loggedIn) {
     res.statusMessage = "you are not logged in!";
     res.status(400).end();
     return;
   }
+  //if user is logged in creates next cart row added with user identifer
   Cart.create({
     inventory_title: req.body.title,
     inventory_price: req.body.price,
@@ -38,9 +37,11 @@ router.post("/", (req, res) => {
 });
 
 router.delete("/:id", (req, res) => {
+  //deletes cart item that has both userid and cartid
   Cart.destroy({
     where: {
-      user_id: req.params.id,
+      user_id: req.session.id,
+      id: req.body.id,
     },
   })
     .then((dbCartData) => res.json(dbCartData))
@@ -48,12 +49,6 @@ router.delete("/:id", (req, res) => {
       console.log(err);
       res.status(500).json(err);
     });
-});
-
-router.get("/test", (req, res) => {
-  Cart.findAll({
-    attributes: ["id", "inventory_title", "inventory_price", "user_id"],
-  }).then((dbCartData) => res.json(dbCartData));
 });
 
 module.exports = router;
