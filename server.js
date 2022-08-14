@@ -29,7 +29,7 @@ app.set("view engine", "handlebars");
 
 app.use(router);
 
-sequelize.sync({ force: true }).then(() => {
+sequelize.sync({ force: false }).then(() => {
   app.listen(PORT, () => {
     console.log("connected to database and listening on Port " + PORT);
   });
