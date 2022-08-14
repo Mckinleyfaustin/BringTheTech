@@ -73,7 +73,7 @@ button:hover {
 .section-title {
   font-size: 48px;
   border-bottom: 3px solid;
-  color: var(--secondary-color);
+  color: wheat;
   padding-bottom: 20px;
   text-align: center;
   margin: 0 auto 35px auto;
@@ -107,10 +107,16 @@ button:hover {
 
 .product {
   margin: 20px;
-  flex: 1;
+  padding: 0 10px 10px 10px;
   background: var(--secondary-color);
   color: var(--primary-color);
   border-radius: 15px;
+  width: 250px;
+  height: min-content;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .product img {
@@ -146,7 +152,7 @@ button:hover {
   border: 3px solid var(--secondary-color);
   background-color: rgba(255, 24, 24, 0.2);
   padding: 20px;
-  color: var(--secondary-color);
+  color: wheat;
   width: 40%;
   margin: 30px auto;
   border-radius: 15px;
@@ -238,6 +244,10 @@ button:hover {
 nav a {
   font-size: 25px;
   margin: 5px;
+}
+
+#total-color {
+  color: wheat;
 }
 
 @media screen and (max-width: 980px) {
