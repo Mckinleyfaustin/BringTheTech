@@ -3,6 +3,9 @@
 BTT is a store front allowing you to find electronic devices or parts, add to your cart and buy them whenever you want.
 github-profile-readme-generator gif
 
+![Screen Shot 2022-08-14 at 1 14 20 PM](https://user-images.githubusercontent.com/101281767/184547961-9ecf5a83-c467-4fe2-b80c-ed6231be3ef4.png)
+
+
 ## 🧐 Table of Contents
 
 - Demo
@@ -68,7 +71,7 @@ To install the project follow these steps:
 - Bradley Woodle
   - Front-end scripting & Back-end scripting
 - Brendan Bischoff
-  - Front-end scripting & requirement keeper
+  - Front-end mastermind - designed and styled application visuals/page layout
 - Darryl Peterson
   - Assets builder, Heroku specialist & Presentation
 - McKinley Faustin
