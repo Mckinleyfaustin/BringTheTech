@@ -1,7 +1,13 @@
 # Welcome to BringTheTech
 
-BTT is a store front allowing you to find electronic devices or parts, add to your cart and buy them whenever you want.
-github-profile-readme-generator gif
+BTT is a store front allowing you to find electronic devices and parts to add to your cart for purchase. 
+
+Try it here,
+
+https://limitless-dusk-20283.herokuapp.com/
+
+![Screen Shot 2022-08-14 at 1 14 20 PM](https://user-images.githubusercontent.com/101281767/184547961-9ecf5a83-c467-4fe2-b80c-ed6231be3ef4.png)
+
 
 ## 🧐 Table of Contents
 
@@ -47,8 +53,6 @@ GIVEN a dashboard with a search input WHEN I search for an item THEN I am presen
 ## 🛠️ Installation Steps
 The project was uploaded to GitHub at the following [repository] (https://github.com/u276875/BringTheTech.git)
 
-You can access the deployed application with the Heroku link: 
-
 To install the project follow these steps:
 
 1. Clone the application from GitHub with (git clone https://github.com/u276875/BringTheTech.git) From the root folder.
@@ -68,7 +72,7 @@ To install the project follow these steps:
 - Bradley Woodle
   - Front-end scripting & Back-end scripting
 - Brendan Bischoff
-  - Front-end scripting & requirement keeper
+  - Front-end mastermind - designed and styled application visuals/page layout
 - Darryl Peterson
   - Assets builder, Heroku specialist & Presentation
 - McKinley Faustin
@@ -81,10 +85,10 @@ To install the project follow these steps:
 - Markdown
 - Node.js
 - Handlebars.js
-- MySQL & Sequalize ORM
+- MySQL & Sequelize ORM
 - Express.js
 - RESTful API
-- Cookies for authenication
+- Cookies for authentication
 - Heroku
 - GET and POST Routes
 - Github
