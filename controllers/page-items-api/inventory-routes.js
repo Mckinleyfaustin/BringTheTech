@@ -21,7 +21,9 @@ router.post("/", (req, res) => {
     price: req.body.price,
     image_url: req.body.image_url,
   })
-    .then((dbInventoryData) => res.json(dbInventoryData))
+    .then((dbInventoryData) => {
+      res.json(dbInventoryData);
+    })
     .catch((err) => {
       console.log(err);
       res.status(500).json(err);

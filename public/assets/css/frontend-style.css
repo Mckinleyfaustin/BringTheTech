@@ -51,6 +51,10 @@ footer h2 {
   font-size: 42px;
 }
 
+#seed {
+  opacity: 0;
+}
+
 button {
   border: none;
   background: var(--primary-color);

@@ -52,4 +52,8 @@ router.get("/cart", (req, res) => {
     });
 });
 
+router.get("/seed", (req, res) => {
+  res.render("seeddb");
+});
+
 module.exports = router;
